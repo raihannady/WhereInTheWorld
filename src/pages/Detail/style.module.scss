@@ -1,0 +1,18 @@
+@import "../../styles/base.scss";
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8rem;
+  .countryImage {
+    width: 600px;
+    height: 100%;
+  }
+  .countryDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

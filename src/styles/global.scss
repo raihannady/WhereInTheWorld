@@ -1,0 +1,14 @@
+@import "./font.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-title;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
